@@ -14,7 +14,7 @@ classes = 3
 -- image_dir = '/home/sanuj/Downloads/anmol_maps'
 -- image_name = 'K10_13332_8866.jpg'
 
-image_dir = '/data/testing-data/40x'
+image_dir = './data/testing-data/40x'
 image_name = '63_LLM_YR4_cropped.jpg'
 
 input_image = image.load(image_dir .. '/' .. image_name, 3, 'byte')

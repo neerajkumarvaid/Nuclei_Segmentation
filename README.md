@@ -4,17 +4,21 @@ Following is a simple instruction set to test our state-of-the art deep learning
 Step 1- Create an instance and configure it for using CUDA enable Torch (refer to goo.gl/mtQgYS)
 
 Step 2- Get the software from Github
-Command 1- git clone https://github.com/neerajkumarvaid/NucleiSegmentation
+---
+git clone https://github.com/neerajkumarvaid/NucleiSegmentation
 
 Step 3- Test our state-of-the art nuclei segmentation model
-Command 2- cd NucleiSegmentation
-Command 3- th predict_full_mask.lua
+---
+cd NucleiSegmentation
+---
+th predict_full_mask.lua
 ---
 Results will be saved in the /data/testing-data/40x/results folder
 
 Step 4- Zip the results folder and download in your laptop's "Downloads" folder
-
-Command 4- zip  -r results.zip results
-Command 5- scp –i key.pem user@ip:~/NucleiSegmentation/data/testing-data/40x/results.zip  ~/Downloads/
+---
+zip  -r results.zip results
+---
+scp –i key.pem user@ip:~/NucleiSegmentation/data/testing-data/40x/results.zip  ~/Downloads/
 ---
 This will give you three images from CNN output  1.png, 2.png and 3.png. Please refer to nucleisegmentationbenchmark.weebly.com for post-processing and model details.

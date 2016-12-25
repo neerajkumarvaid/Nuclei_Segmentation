@@ -8,7 +8,7 @@ Step 2- Get the software from Github
 git clone https://github.com/neerajkumarvaid/NucleiSegmentation
 
 Step 3- Test our state-of-the art nuclei segmentation model
----
+
 cd NucleiSegmentation
 ---
 th predict_full_mask.lua

@@ -12,7 +12,7 @@ Step 3- Test our state-of-the art nuclei segmentation model
 cd NucleiSegmentation
 ---
 th predict_full_mask.lua
----
+
 Results will be saved in the /data/testing-data/40x/results folder
 
 Step 4- Zip the results folder and download in your laptop's "Downloads" folder

@@ -4,9 +4,9 @@ Following is a simple instruction set to test our state-of-the art deep learning
 Step 1- Create an instance and configure it for using CUDA enable Torch (refer to goo.gl/mtQgYS)
 
 Step 2- Get the software from Github
----
-git clone https://github.com/neerajkumarvaid/NucleiSegmentation
 
+git clone https://github.com/neerajkumarvaid/NucleiSegmentation
+---
 Step 3- Test our state-of-the art nuclei segmentation model
 
 cd NucleiSegmentation

@@ -1,7 +1,7 @@
 # NucleiSegmentation
 Following are the instructions to test our state-of-the art deep learning based nuclei segmentation software using an AWS EC2 instance-
 
-Step 1- Create an instance and configure it for using CUDA enabled Torch (refer to goo.gl/mtQgYS)
+Step 1- Create an instance and configure it for using CUDA enabled Torch (refer to https://drive.google.com/file/d/0ByERBiBsEbuTUS0wdWQ2NUZGTm8/view)
 
 Step 2- Get the software from Github
 

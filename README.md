@@ -22,3 +22,7 @@ zip  -r results.zip results
 scp –i key.pem user@ip:~/NucleiSegmentation/data/testing-data/40x/results.zip  ~/Downloads/
 ---
 This will give you three images from CNN output  1.png, 2.png and 3.png. Please refer to nucleisegmentationbenchmark.weebly.com for post-processing and model details.
+
+Support
+---
+If you found this useful, please consider starring(★) the repo so that it can reach a broader audience.
